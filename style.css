@@ -36,7 +36,6 @@
   max-width:1644px;
   padding:0 10px;
   margin: auto;
-  background-color: rgb(175, 201, 201);
 }
 /**********************************************************************/
 
@@ -75,6 +74,7 @@ img {
   font-size: 22px;
   font-family: 'vegasemi';
   font-weight: 800;
+  line-height: 1.1;
 }
 
 .title {
@@ -114,6 +114,9 @@ img {
 .inline-article{width:100%; display:flex; flex-direction:row-reverse}
 .wrap-thumb1 {width:50%}
 .wrap-post1 {width:60%}
+.wrap-post {
+  height: 100%;
+}
 .is-flex {
   display: flex;
   line-height: 19px;
@@ -200,6 +203,11 @@ img {
   background-color: transparent;
   margin-left: auto;
   margin-right: auto;
+}
+.wrap-ef {
+  width: 310px;
+  padding-right: 25px;
+  margin: auto;
 }
 #ef-h {
   color: white;
