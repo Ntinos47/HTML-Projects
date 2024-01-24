@@ -12,6 +12,20 @@
 }
 
 /**********************************************************************/
+.title-replace {
+  height: 100%;
+  width: 300px;
+  flex-direction: column;
+}
+@media only screen and (max-width: 1024px) {
+  div.title-replace {
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: end;
+  }
+}
+
 
 .project1 {
   background-color: #E2EBD8;
@@ -29,6 +43,11 @@
 #all {
   color: black;
   padding: 10px;
+  margin-bottom: 20px;
+}
+#all3 {
+  color: black;
+  padding: 25px;
   margin-bottom: 20px;
 }
 .wrap-pr {
@@ -71,6 +90,7 @@ img {
   padding: 15px 5px 5px 7px;
 }
 .wrap-header h3{
+  margin:20px 0 40px 0;
   font-size: 22px;
   font-family: 'vegasemi';
   font-weight: 800;
@@ -109,7 +129,6 @@ img {
   object-fit: cover; 
   object-position: center;
 }
-#p1 {display: flex;}
 #p2 {font-size: 14px;font-weight: 700; margin-top: 10px; line-height: 19px; font-family: 'Manrope';}
 .inline-article{width:100%; display:flex; flex-direction:row-reverse}
 .wrap-thumb1 {width:50%}
